@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="40sp"
+    tools:context=".AccessAccount">
+
+    <LinearLayout
+        android:id="@+id/TopLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/ImagemUser"
+            android:layout_width="167dp"
+            android:layout_height="160dp"
+            android:paddingTop="10sp"
+            app:srcCompat="@drawable/account_vector" />
+
+        <TextView
+            android:id="@+id/Title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth_bold"
+            android:paddingTop="10sp"
+            android:text="Bem vindo de Volta!"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/User"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/amaranth_bold"
+            android:paddingTop="30sp"
+            android:paddingBottom="30sp"
+            android:text="Usuario"
+            android:textSize="34sp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/MiddleLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/TopLayout"
+        android:layout_marginStart="0sp"
+        android:layout_marginTop="35sp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/SenhaLogin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10sp"
+            app:endIconMode="password_toggle"
+            app:passwordToggleDrawable="@drawable/hide_eye">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/SenhaAcessoInput"
+                android:layout_width="290dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableStart="@drawable/password_vector"
+                android:drawablePadding="10sp"
+                android:fontFamily="@font/amaranth"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:textSize="24sp" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/BottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/MiddleLayout"
+        android:layout_marginTop="50sp"
+        android:gravity="center|top"
+        android:orientation="horizontal"
+        android:paddingTop="70sp">
+
+        <Button
+            android:id="@+id/CriarUsuario"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/LightGrey"
+            android:text="Novo Usuário"
+            android:textColor="@color/grey11" />
+
+        <Button
+            android:id="@+id/Entrar"
+            android:layout_width="150sp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:backgroundTint="@color/Gold"
+            android:text="Entrar"
+            android:textColor="@color/grey11" />
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

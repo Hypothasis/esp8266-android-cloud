@@ -1,0 +1,6 @@
+src/Android/.gradle
+src/Android/.idea/shelf/
+src/Android/.idea/workspace.xml
+src/Android/.idea/caches
+src/Android/local.properties
+src/Android/app/build

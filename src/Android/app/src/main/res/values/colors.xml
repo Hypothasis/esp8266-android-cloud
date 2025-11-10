@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="LightGrey">#D3D3D3</color>
+    <color name="DarkGray">#A9A9A9</color>
+    <color name="grey31">#4F4F4F</color>
+    <color name="grey21">#363636</color>
+    <color name="grey11">#1C1C1C</color>
+    <color name="Gold">#FFD700</color>
+    <color name="Yellow">#FFFF00</color>
+    <color name="Khaki">#F0E68C</color>
+    <color name="RedButton">#D86B6B</color>
+    <color name="GreenAprove">#50E861</color>
+    <color name="colorLedOn">#FF4CAF50</color>
+    <color name="colorLedOff">#FF555555</color>
+</resources>
